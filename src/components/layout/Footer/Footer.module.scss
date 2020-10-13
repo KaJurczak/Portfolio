@@ -1,0 +1,57 @@
+@import '../../../styles/settings.scss';
+
+.root {
+  margin-top: 5px;
+
+  .footer {
+    background-color: $bgWhite;
+    color: $textGreyBlue;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px 20px;
+    flex-wrap: wrap;
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    .copyright {
+      margin: auto 0;
+    }
+
+    .socialMedia {
+
+      ul {
+        list-style: none;
+        display: flex;
+        padding-inline-start: 0;
+
+        a {
+          color: $textGreyBlue;
+          margin: 0 10px;
+
+          &:hover {
+            color: $textOrange;
+          }
+        }
+      }
+    }
+
+    ul {
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+
+    .socialMedia {
+      margin: auto auto;
+    }
+  }
+}
