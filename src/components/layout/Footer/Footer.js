@@ -1,16 +1,16 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 
-import styles from './Header.module.scss';
+import styles from './Footer.module.scss';
 
-const Header = () => (
+const Footer = () => (
   <div className={styles.root}>
-    <h2>Header</h2>
+    <h2>Footer</h2>
   </div>
 );
 
-Header.propTypes = {
+Footer.propTypes = {
   // className: PropTypes.string,
 };
 
-export default Header;
+export default Footer;

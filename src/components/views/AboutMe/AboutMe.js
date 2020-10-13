@@ -1,16 +1,16 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 
-import styles from './Header.module.scss';
+import styles from './AboutMe.module.scss';
 
-const Header = () => (
+const AboutMe = () => (
   <div className={styles.root}>
-    <h2>Header</h2>
+    <h2>AboutMe</h2>
   </div>
 );
 
-Header.propTypes = {
+AboutMe.propTypes = {
   // className: PropTypes.string,
 };
 
-export default Header;
+export default AboutMe;
