@@ -4,6 +4,7 @@ import React from 'react';
 import styles from './Footer.module.scss';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import EmailIcon from '@material-ui/icons/Email';
 
 const Footer = () => (
   <footer className={styles.root}>
@@ -13,6 +14,11 @@ const Footer = () => (
       </div>
       <div className={styles.socialMedia}>
         <ul>
+          <li>
+            <a href='mailto:karolinajurczakk@gmail.com' target='_blank' rel='noopener noreferrer'>
+              <EmailIcon>Email</EmailIcon>
+            </a>
+          </li>
           <li>
             <a href='https://www.linkedin.com/in/karolina-jurczak/' target='_blank' rel='noopener noreferrer'>
               <LinkedInIcon>LinkedIn</LinkedInIcon>
