@@ -1,29 +1,7 @@
 @import '../../../styles/global.scss';
 
 .root {
-  // margin: auto auto;
-  // vertical-align: middle;
-  // position: relative;
-
   .textWrapper {
-    // margin: 0;
-    // position: absolute;
-    // top: 50%;
-    // // -ms-transform: translateY(-50%);
-    // transform: translateY(-50%);
-
-    .title, .subtitle {
-      text-align: center;
-    }
-
-    .title, .subtitle, .text {
-      margin-bottom: 50px;
-    }
-
-    // .title {
-    //   position: relative;
-    // }
-
     .text {
       font-size: $base-size * 1.5;
       text-align: center;
@@ -31,17 +9,6 @@
       font-style: italic;
       position: relative;
     }
-
-    // .title::after, .text::after {
-    //   position: absolute;
-    //   content: '';
-    //   bottom: -10px;
-    //   left: 50%;
-    //   width: 60px;
-    //   height: 5px;
-    //   transform: translateX(-50%);
-    //   background: $bkOrange;
-    // }
   }
 }
 

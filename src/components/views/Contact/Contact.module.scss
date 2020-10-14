@@ -1,38 +1,8 @@
-@import '../../../styles/settings.scss';
+@import '../../../styles/global.scss';
 
 .root {
-  // margin: auto auto;
-  // vertical-align: middle;
-  // position: relative;
-
   .textWrapper {
-    // margin: 0;
-    // position: absolute;
-    // top: 50%;
-    // right: 0;
-    // left: 0;
-    // // -ms-transform: translateY(-50%);
-    // transform: translateY(-50%);
-
-    // .title {
-    //   text-align: center;
-    //   position: relative;
-    //   margin-bottom: 50px;
-    // }
-
-    // .title::after {
-    //   position: absolute;
-    //   content: '';
-    //   bottom: -10px;
-    //   left: 50%;
-    //   width: 60px;
-    //   height: 5px;
-    //   transform: translateX(-50%);
-    //   background: $bkOrange;
-    // }
-
     .icons {
-
       .paper {
         text-align: center;
         height: 150px;
