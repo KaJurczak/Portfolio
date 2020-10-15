@@ -25,10 +25,10 @@ const SkillsProjects = () => (
               <div className={styles.imgWrapper}>
                 <img src={'/images/Portfolio.JPG'} alt={'portfolio'} />
                 <div className={styles.projectButtons}>
-                  <Button component={Link} to={'/skillsProjects'} color="inherit" className={styles.button}>
+                  <Button component={Link} to={'https://kajurczak.github.io/Portfolio/'} color="inherit" className={styles.button}>
                       KOD
                   </Button>
-                  <Button component={Link} to={'/skillsProjects'} color="inherit" className={styles.button}>
+                  <Button component={Link} to={'https://github.com/KaJurczak/Portfolio'} color="inherit" className={styles.button}>
                       Demo
                   </Button>
                 </div>
@@ -43,10 +43,10 @@ const SkillsProjects = () => (
               <div className={styles.imgWrapper}>
                 <img src={'/images/Gardener.JPG'} alt={'gardener'} />
                 <div className={styles.projectButtons}>
-                  <Button component={Link} to={'/skillsProjects'} color="inherit" className={styles.button}>
+                  <Button component={Link} to={'https://github.com/KaJurczak/Gardener'} color="inherit" className={styles.button}>
                       KOD
                   </Button>
-                  <Button component={Link} to={'/skillsProjects'} color="inherit" className={styles.button}>
+                  <Button component={Link} to={'https://gardener-app.herokuapp.com/'} color="inherit" className={styles.button}>
                       Demo
                   </Button>
                 </div>
