@@ -23,7 +23,7 @@ const SkillsProjects = () => (
           <Grid item xs={12} sm={6}>
             <div className={styles.projectWrapper}>
               <div className={styles.imgWrapper}>
-                <img src={'/images/Portfolio.JPG'} alt={'portfolio'} />
+                <img src={'/Portfolio/images/Portfolio.JPG'} alt={'portfolio'} />
                 <div className={styles.projectButtons}>
                   <Button component={Link} to={'https://kajurczak.github.io/Portfolio/'} color="inherit" className={styles.button}>
                       KOD
@@ -41,7 +41,7 @@ const SkillsProjects = () => (
           <Grid item xs={12} sm={6}>
             <div className={styles.projectWrapper}>
               <div className={styles.imgWrapper}>
-                <img src={'/images/Gardener.JPG'} alt={'gardener'} />
+                <img src={'/Portfolio/images/Gardener.JPG'} alt={'gardener'} />
                 <div className={styles.projectButtons}>
                   <Button component={Link} to={'https://github.com/KaJurczak/Gardener'} color="inherit" className={styles.button}>
                       KOD

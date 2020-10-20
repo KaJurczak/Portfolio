@@ -17,18 +17,18 @@ const Header = () => (
           <MenuIcon />
         </IconButton> */}
         <div className={styles.logo}>
-          <Typography className={styles.logo} component={Link} to={`/`} color="inherit" underline="hover">
+          <Typography className={styles.logo} component={Link} to={`/Portfolio/`} color="inherit" underline="hover">
             <span className="name">KAROLINA JURCZAK</span>
             <span className={styles.title}>junior front-end developer</span>
           </Typography>
         </div>
         <div>
-          <Button component={Link} to={'/skillsProjects'} color="inherit" className={styles.button}>
+          <Button component={Link} to={'/Portfolio/skillsProjects'} color="inherit" className={styles.button}>
             <div>
               Umiejętności
             </div>
           </Button>
-          <Button component={Link} to={'/contact'} color="inherit" className={styles.button}>
+          <Button component={Link} to={'/Portfolio/contact'} color="inherit" className={styles.button}>
             <div>
               Kontakt
             </div>
