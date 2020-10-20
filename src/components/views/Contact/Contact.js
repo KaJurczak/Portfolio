@@ -13,7 +13,7 @@ const Contact = () => (
   <div>
     <Container className={styles.root}>
       <div className={styles.textWrapper}>
-        <h2 className={styles.title}>Kontakt</h2>
+        <h2 className={styles.title}>KONTAKT</h2>
         <div className={styles.icons}>
           <Grid container spacing={3}>
             <Grid item xs={12} sm={6}>

@@ -3,22 +3,32 @@ import React from 'react';
 
 import styles from './SkillsProjects.module.scss';
 import Container from '@material-ui/core/Container';
-// import GridList from '@material-ui/core/GridList';
-// import GridListTile from '@material-ui/core/GridListTile';
-// import GridListTileBar from '@material-ui/core/GridListTileBar';
-// import IconButton from '@material-ui/core/IconButton';
-// import InfoIcon from '@material-ui/icons/Info';
 import { Link } from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
-
-// import Gardener from '../../../../public/Gardener.JPG';
 
 const SkillsProjects = () => (
   <div>
     <Container className={styles.root}>
       <div className={styles.textWrapper}>
-        <h2 className={styles.title}>Projekty</h2>
+        <h2 className={styles.title}>WYKORZYSTYWANE TECHNOLOGIE</h2>
+        <div className={styles.skills}>
+          <Grid container spacing={3}>
+            <Grid item xs={12} sm={4}>
+              <h4>Frond-end</h4>
+              <p>HTML, CSS, RWD, Bootstrap, JavaScript ES6, AJAX, React, Redux</p>
+            </Grid>
+            <Grid item xs={12} sm={4}>
+              <h4>Back-end</h4>
+              <p>Node, Express, MongoDB</p>
+            </Grid>
+            <Grid item xs={12} sm={4}>
+              <h4>Narzędzia</h4>
+              <p>Git, NPM, Yarn, Jira, Webpack</p>
+            </Grid>
+          </Grid>
+        </div>
+        <h2 className={styles.title}>PROJEKTY</h2>
         <Grid container spacing={3}>
           <Grid item xs={12} sm={6}>
             <div className={styles.projectWrapper}>

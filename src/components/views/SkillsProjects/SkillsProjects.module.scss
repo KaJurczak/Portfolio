@@ -2,12 +2,15 @@
 
 .root {
   .textWrapper {
+    .skills {
+      text-align: center;
+    }
+
     .projectWrapper {
       text-align: center;
       color: $textGreyBlue;
-      border: $bgMain solid;
-      border-width: 0 0 3px 3px;
-      // height: 350px;
+      // border: $bgMain solid;
+      // border-width: 0 0 3px 3px;
       margin: 10px 30px;
       padding: 15px 0;
       
@@ -15,7 +18,8 @@
         position: relative;
 
         img {
-          width: 50%;
+          // width: 50%;
+          max-height: 250px;
         }
 
         .projectButtons {
@@ -46,11 +50,6 @@
           opacity: 1;
         }
       }
-
-      // .contentWrapper {
-      //   border: $bgMain solid;
-      //   border-width: 0 3px 3px 3px;
-      // }
     }
   }
 }
