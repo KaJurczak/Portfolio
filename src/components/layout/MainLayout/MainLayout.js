@@ -6,9 +6,11 @@ import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 
 const MainLayout = ({children}) => (
-  <div className={styles.root}>
+  <div className={styles.mainWrapper}>
     <Header />
-    {children}
+    <div className={styles.childrenWrapper}>
+      {children}
+    </div>
     <Footer />
   </div>
 );

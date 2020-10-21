@@ -2,6 +2,18 @@
 
 .root {
   margin-top: 5px;
+  position: relative;
+
+  .footer::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 50%;
+    width: 80%;
+    height: 3px;
+    transform: translateX(-50%);
+    background: $textGreyBlue;
+  }
 
   .footer {
     background-color: $bgWhite;
@@ -22,6 +34,8 @@
     }
 
     .socialMedia {
+      margin-top: auto;
+      margin-bottom: auto;
 
       ul {
         list-style: none;
@@ -50,8 +64,13 @@
   .footer {
     flex-direction: column;
 
+    .copyright {
+      display: none;
+    }
+
     .socialMedia {
       margin: auto auto;
+      padding: 5px;
     }
   }
 }
