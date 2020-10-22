@@ -1,6 +1,4 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
-
 import styles from './SkillsProjects.module.scss';
 import Container from '@material-ui/core/Container';
 import { Link } from 'react-router-dom';
@@ -71,9 +69,5 @@ const SkillsProjects = () => (
     </Container>
   </div>
 );
-
-SkillsProjects.propTypes = {
-  // className: PropTypes.string,
-};
 
 export default SkillsProjects;

@@ -1,6 +1,4 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
-
 import styles from './Home.module.scss';
 import Container from '@material-ui/core/Container';
 
@@ -20,9 +18,5 @@ const Home = () => (
     </Container>
   </div>
 );
-
-Home.propTypes = {
-  // className: PropTypes.string,
-};
 
 export default Home;

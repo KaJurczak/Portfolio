@@ -1,6 +1,4 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
-
 import styles from './AboutMe.module.scss';
 import Container from '@material-ui/core/Container';
 
@@ -19,9 +17,5 @@ const AboutMe = () => (
     </Container>
   </div>
 );
-
-AboutMe.propTypes = {
-  // className: PropTypes.string,
-};
 
 export default AboutMe;

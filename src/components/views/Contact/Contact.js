@@ -1,6 +1,4 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
-
 import styles from './Contact.module.scss';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
@@ -54,9 +52,5 @@ const Contact = () => (
     </Container>
   </div>
 );
-
-Contact.propTypes = {
-  // className: PropTypes.string,
-};
 
 export default Contact;

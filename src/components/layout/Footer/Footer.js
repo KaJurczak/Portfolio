@@ -1,6 +1,4 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
-
 import styles from './Footer.module.scss';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -34,9 +32,5 @@ const Footer = () => (
     </div>
   </footer>
 );
-
-Footer.propTypes = {
-  // className: PropTypes.string,
-};
 
 export default Footer;

@@ -1,5 +1,4 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 import styles from './Header.module.scss';
 import { makeStyles } from '@material-ui/core/styles';
 import { Link } from 'react-router-dom';
@@ -100,10 +99,6 @@ const Header = () => {
       </AppBar>
     </div>
   );
-};
-
-Header.propTypes = {
-  // className: PropTypes.string,
 };
 
 export default Header;

@@ -1,6 +1,4 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
-
 import styles from './NotFound.module.scss';
 import Container from '@material-ui/core/Container';
 import { Link } from 'react-router-dom';
@@ -17,9 +15,5 @@ const NotFound = () => (
     </Container>
   </div>
 );
-
-NotFound.propTypes = {
-  // className: PropTypes.string,
-};
 
 export default NotFound;
