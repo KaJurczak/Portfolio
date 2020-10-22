@@ -23,6 +23,11 @@ const Header = () => (
           </Typography>
         </div>
         <div>
+          <Button component={Link} to={'/Portfolio/aboutMe'} color="inherit" className={styles.button}>
+            <div>
+              Doświadczenie
+            </div>
+          </Button>
           <Button component={Link} to={'/Portfolio/skillsProjects'} color="inherit" className={styles.button}>
             <div>
               Umiejętności
