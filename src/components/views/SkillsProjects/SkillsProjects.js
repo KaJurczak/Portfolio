@@ -16,7 +16,7 @@ const SkillsProjects = () => (
           <Grid container spacing={3}>
             <Grid item xs={12} sm={4}>
               <h4>Frond-end</h4>
-              <p>HTML, CSS, RWD, Bootstrap, JavaScript ES6, AJAX, React, Redux</p>
+              <p>HTML, CSS, RWD, JavaScript ES6, Bootstrap, Material-UI, AJAX, React, Redux</p>
             </Grid>
             <Grid item xs={12} sm={4}>
               <h4>Back-end</h4>
