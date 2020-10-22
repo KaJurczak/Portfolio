@@ -25,7 +25,7 @@ const Contact = () => (
             <Grid item xs={12} sm={6}>
               <div className={styles.paper}>
                 <a href='mailto:karolinajurczakk@gmail.com' target='_blank' rel='noopener noreferrer'>
-                  <span>Email</span>
+                  <span>karolinajurczakk@gmail.com</span>
                   <EmailIcon>Email</EmailIcon>
                 </a>
               </div>
@@ -33,15 +33,15 @@ const Contact = () => (
             <Grid item xs={12} sm={6}>
               <div className={styles.paper}>
                 <a href='https://www.linkedin.com/in/karolina-jurczak/' target='_blank' rel='noopener noreferrer'>
-                  <span>LinkedIn</span>
+                  <span>linkedin.com/in/karolina-jurczak/</span>
                   <LinkedInIcon>LinkedIn</LinkedInIcon>
                 </a>
               </div>
             </Grid>
             <Grid item xs={12} sm={6}>
               <div className={styles.paper}>
-                <a href='https://github.com/KaJurczak/Portfolio' target='_blank' rel='noopener noreferrer'>
-                  <span>GitHub</span>
+                <a href='https://github.com/KaJurczak' target='_blank' rel='noopener noreferrer'>
+                  <span>github.com/KaJurczak</span>
                   <GitHubIcon>GitHub</GitHubIcon>
                 </a>
               </div>
