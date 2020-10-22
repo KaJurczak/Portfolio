@@ -16,7 +16,7 @@ const Contact = () => (
           <Grid container spacing={3}>
             <Grid item xs={12} sm={6}>
               <div className={styles.paper}>
-                <a href='https://drive.google.com/file/d/1N_qvLC0CYtz4ttsK4RgZkgqvuis84huv/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
+                <a href='https://drive.google.com/file/d/19lqVeKwCAFRlFRtIy1fVpGi5ZOCly6sU/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
                   <span>Curriculum Vitae</span>
                   <DescriptionIcon>CV</DescriptionIcon>
                 </a>
