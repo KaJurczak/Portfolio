@@ -54,7 +54,7 @@ const SkillsProjects = () => (
                   <Button component={Link} to={'https://github.com/KaJurczak/Gardener'} color="inherit" className={styles.button}>
                       KOD
                   </Button>
-                  <Button component={Link} to={'https://gardener-app.herokuapp.com/'} color="inherit" className={styles.button}>
+                  <Button component={Link} to={'https://gardenershop-beaa8.web.app/'} color="inherit" className={styles.button}>
                       Demo
                   </Button>
                 </div>
