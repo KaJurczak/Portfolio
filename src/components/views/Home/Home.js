@@ -13,7 +13,7 @@ const Home = () => (
         Od półtora roku napędza mnie chęć zmiany swojej ścieżki zawodowej na front-end. Niedawno zakończyłam obszerny kurs programowania - Web Developer Plus w Kodilli. <br></br>
         A ponieważ ćwiczenie czyni mistrza, tworzę kolejne projekty. 
         </p>
-        <h3 className={styles.subtitle}>Obecnie szukam swojej pierwszej pracy w IT.</h3>
+        <h3 className={styles.subtitle}>Obecnie szukam swojej pierwszej pracy lub stażu w IT.</h3>
       </div>
     </Container>
   </div>
